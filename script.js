@@ -26,6 +26,12 @@ function print(info) {
 let book = new AddressBook();
 
 book.add("Kenney", "kenneyaisho@gmail.com", "5865555555", "myself");
-book.add("Kyle", "kyleaisho@gmail.com", "5864448544", "Brother");
-book.deleteAt(0);
+book.add("Kyle", "kyleaisho@gmail.com", "5864444444", "brother");
+book.add(
+  "Jarl",
+  "Jarlbalgruuf@gmail.com",
+  "phones didn't exist back then",
+  "Jarl of Whiterun"
+);
+book.deleteAt(1);
 print(book);
